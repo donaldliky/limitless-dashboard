@@ -1,0 +1,25 @@
+.startup_page {
+	width: 100%;
+	background-color: #1A1A1A;
+	min-height: 100vh;
+}
+
+.authorize_discord_phrase {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	margin-top: 20%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+	.authorize_discord_phrase {
+		margin-top: 60%;
+	}
+}
+

@@ -1,0 +1,26 @@
+.MuiButtonBase-root.MuiTab-root.Mui-selected {
+    color: #FFFFFF !important;
+    background-color: #1B2332 !important;
+}
+
+.MuiTableCell-root {
+    border-bottom: 0px !important;
+    color: #FFFFFF !important;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root {
+    height: 40px;
+    border-radius: 0px;
+    color: #FFFFFF !important;
+}
+
+.MuiTabs-indicator {
+    margin-bottom: 52px;
+    background-color: #00FFFF !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: #2D4065 !important;
+    /* background-color: #121B2B !important; */
+    color: #FFFFFF !important;
+}

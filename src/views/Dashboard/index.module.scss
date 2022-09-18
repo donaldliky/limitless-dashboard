@@ -1,0 +1,186 @@
+.home {
+	// min-width: 81vw;
+	background-color: #1A1A1A;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.main_content {
+	padding: 30px 30px !important;
+	margin-top: 0px;
+	background-color: #1A1A1A;
+}
+
+.wallet_part {
+	display: block;
+	max-width: 1920px !important;
+	width: 100%;
+	padding: 0px 0px;
+}
+
+.wallet_connection {
+	font-size: 20px !important;
+	color: #FFFFFF;
+	margin-bottom: 20px !important;
+	text-align: left;
+	/*sx={{fontSize: '20px', color: '#FFFFFF', mb: '20px', width: isMobile? '100%': '35%', textAlign: isMobile?'center': 'left'}}*/
+}
+
+.wallet_connect {
+	font-size: 16px !important;
+	font-weight: normal !important;
+	font-family: 'Poppins' !important;
+	/* background-color: #1B222D !important; */
+	border-radius: 0px !important;
+	padding: 5px 10px !important;
+	color: #FFFFFF !important;
+	cursor: pointer !important;
+	height: 40px !important;
+	border: 1px solid #00FFFC !important;
+}
+
+.wallet_connect:hover {
+	border: 1px solid #2D528A !important;
+	/* background-color: #1B2233 !important; */
+}
+
+.removeButton {
+	border-radius: 0px !important;
+	padding: 3px 20px !important;
+	color: #FFFFFF !important;
+	border: 1px solid #00FFFC !important;
+}
+
+Typography {
+	font-family: 'Poppins' !important;
+}
+
+.select_collection {
+	height: 33px;
+	background-color: #1B1B1B;
+	color: #FFFFFF !important;
+	font-size: 16px;
+	font-family: 'Poppins';
+	/* border: 1px solid #FFFFFF; */
+	margin-bottom: 30px;
+	border-radius: 0px !important;
+	/* margin-left: auto; */
+	margin-right: auto;
+}
+
+.connect_button_area {
+	display: flex;
+	width: 35%;
+}
+
+.nft_part {
+	width: 100% !important;
+	margin-bottom: 30px !important;
+	padding: 22px 0px !important;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	src: url('./../../assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+* {
+	font-family: 'Poppins' !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.main_content {
+		padding: 30px 30px !important;
+		/* display: block; */
+		/* margin-top: 0px; */
+	}
+
+	.wallet_part {
+		width: 100%;
+	}
+
+	.nft_part {
+		width: 100%;
+	}
+
+	.wallet_connection {
+		width: 100%;
+		text-align: left;
+	}
+
+	Box {
+		text-align: center;
+	}
+
+	.select_collection {
+		margin-left: auto;
+	}
+
+	.connect_button_area {
+		justify-content: center;
+		width: 100%;
+	}
+}
+
+.wallet_buttons {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.wallet_container {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.connected_wallet_info {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.connected_wallet_info img {
+	margin-right: 10px;
+}
+
+.wallet_address {
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.nft_items {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+.removeButton {
+	border-radius: 0px !important;
+	padding: 3px 20px !important;
+	color: #FFFFFF !important;
+	border: 1px solid #00FFFC !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.home {
+		min-width: 100vw;
+	}
+
+	.nft_container {
+		display: block;
+	}
+
+	.wallet_container {
+		width: 100%;
+		padding-right: 0px;
+	}
+
+	.nft_items {
+		width: 100%;
+		margin-top: 0px;
+		justify-content: center;
+	}
+}
